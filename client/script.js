@@ -58,7 +58,12 @@ ws.onmessage = (event) => {
         location.reload();
     }
 };
-
+ws.onerror = function(error) {
+    console.error('WebSocket Error:', error);
+};
+ws.onclose = function() {
+    console.log('WebSocket connection closed.');
+};
 // Load a new question
 function loadQuestion(questionData) {
     document.getElementById("question").innerText = questionData.question;
