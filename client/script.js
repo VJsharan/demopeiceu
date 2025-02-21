@@ -1,4 +1,4 @@
-const ws = new WebSocket("ws://quizgame-production-ce87.up.railway.app");
+const ws = new WebSocket(import.meta.env.VITE_WS_URL);
 ws.onopen = function() {
     ws.send(JSON.stringify({ type: "request_positions" }));
 };
