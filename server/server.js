@@ -1,7 +1,6 @@
 const WebSocket = require("ws");
 const fs = require("fs");
-const cors = require('cors');
-app.use(cors());
+
 
 // Load questions from a JSON file
 const questions = JSON.parse(fs.readFileSync("questions.json", "utf8"));
