@@ -1,5 +1,7 @@
 const WebSocket = require("ws");
 const fs = require("fs");
+const cors = require('cors');
+app.use(cors());
 
 // Load questions from a JSON file
 const questions = JSON.parse(fs.readFileSync("questions.json", "utf8"));
@@ -7,8 +9,7 @@ const questions = JSON.parse(fs.readFileSync("questions.json", "utf8"));
 const PORT = process.env.PORT || 5000;
 
 // Create the HTTP server
-const server = require('http').createServer();
-const wss = new WebSocket.Server({ server });
+const server = new WebSocket.Server({ port: PORT });
 
 let players = {}; // Store connected players
 let waitingPlayers = []; // Queue for waiting players
