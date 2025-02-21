@@ -10,6 +10,56 @@
     "correct": "Mars"
   },
   {
+    "question": "Which language is known as the backbone of web development?",
+    "options": ["JavaScript", "Python", "C++", "Ruby"],
+    "correct": "JavaScript"
+  },
+  {
+    "question": "Which data structure uses FIFO (First In First Out) principle?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "correct": "Queue"
+  },
+  {
+    "question": "Which sorting algorithm has the best average time complexity?",
+    "options": ["Merge Sort", "Bubble Sort", "Insertion Sort", "Selection Sort"],
+    "correct": "Merge Sort"
+  },
+  {
+    "question": "Which protocol is used to send emails?",
+    "options": ["SMTP", "FTP", "HTTP", "IMAP"],
+    "correct": "SMTP"
+  },
+  {
+    "question": "Who is known as the father of computer science?",
+    "options": ["Charles Babbage", "Alan Turing", "Dennis Ritchie", "Tim Berners-Lee"],
+    "correct": "Alan Turing"
+  },
+  {
+    "question": "Which of the following is a NoSQL database?",
+    "options": ["MongoDB", "MySQL", "PostgreSQL", "Oracle"],
+    "correct": "MongoDB"
+  },
+  {
+    "question": "Which method is used to find the length of a string in JavaScript?",
+    "options": [".length", ".size()", ".count()", ".getLength()"],
+    "correct": ".length"
+  },
+  {
+    "question": "Which is not an object-oriented programming language?",
+    "options": ["C", "Java", "Python", "C++"],
+    "correct": "C"
+  },
+  {
+    "question": "Which one is a front-end framework?",
+    "options": ["React", "Node.js", "Django", "Flask"],
+    "correct": "React"
+  },
+  {
+    "question": "What does SQL stand for?",
+    "options": ["Structured Query Language", "Simple Query Language", "Sequential Query Language", "Standard Query Language"],
+    "correct": "Structured Query Language"
+  },  
+  {
     "question": "2 + 2?",
     "options": ["6", "3", "5", "4"],
     "correct": "4"
@@ -39,6 +89,156 @@
     "options": ["Mars", "Earth", "Venus", "Mercury"],
     "correct": "Mercury"
   },
+  {
+    "question": "Which of the following is a version control system?",
+    "options": ["Git", "Docker", "Jenkins", "Kubernetes"],
+    "correct": "Git"
+  },
+  {
+    "question": "Which data structure is used for implementing recursion?",
+    "options": ["Stack", "Queue", "Array", "Linked List"],
+    "correct": "Stack"
+  },
+  {
+    "question": "Which layer in the OSI model is responsible for routing?",
+    "options": ["Network Layer", "Data Link Layer", "Transport Layer", "Session Layer"],
+    "correct": "Network Layer"
+  },
+  {
+    "question": "Which of the following is used for Android app development?",
+    "options": ["Kotlin", "Swift", "PHP", "Ruby"],
+    "correct": "Kotlin"
+  },
+  {
+    "question": "Which keyword is used to create a class in Java?",
+    "options": ["class", "struct", "object", "new"],
+    "correct": "class"
+  },
+  {
+    "question": "Which is a dynamically typed programming language?",
+    "options": ["Python", "Java", "C#", "C++"],
+    "correct": "Python"
+  },
+  {
+    "question": "Which sorting algorithm is the fastest in the average case?",
+    "options": ["Quick Sort", "Bubble Sort", "Selection Sort", "Insertion Sort"],
+    "correct": "Quick Sort"
+  },
+  {
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": ["<a>", "<link>", "<href>", "<nav>"],
+    "correct": "<a>"
+  },
+  {
+    "question": "Which of the following is a cloud computing platform?",
+    "options": ["AWS", "MySQL", "Oracle", "Docker"],
+    "correct": "AWS"
+  },
+  {
+    "question": "Which protocol is used for secure communication over the internet?",
+    "options": ["HTTPS", "FTP", "SMTP", "HTTP"],
+    "correct": "HTTPS"
+  },
+  {
+    "question": "Which programming paradigm is based on the concept of 'objects'?",
+    "options": ["Object-Oriented Programming", "Functional Programming", "Procedural Programming", "Logical Programming"],
+    "correct": "Object-Oriented Programming"
+  },
+  {
+    "question": "Which of the following is used for styling web pages?",
+    "options": ["CSS", "HTML", "JavaScript", "PHP"],
+    "correct": "CSS"
+  },
+  {
+    "question": "Which algorithm is commonly used for shortest path finding?",
+    "options": ["Dijkstra's Algorithm", "Bubble Sort", "Merge Sort", "Depth-First Search"],
+    "correct": "Dijkstra's Algorithm"
+  },
+  {
+    "question": "Which symbol is used for comments in Python?",
+    "options": ["#", "//", "/*", "<!--"],
+    "correct": "#"
+  },
+  {
+    "question": "Which protocol is used to transfer files between computers?",
+    "options": ["FTP", "SMTP", "HTTP", "TCP"],
+    "correct": "FTP"
+  },
+  {
+    "question": "Which type of database is MySQL?",
+    "options": ["Relational Database", "NoSQL Database", "Graph Database", "Document Database"],
+    "correct": "Relational Database"
+  },
+  {
+    "question": "Which of the following is used to manage dependencies in Node.js?",
+    "options": ["npm", "pip", "composer", "gradle"],
+    "correct": "npm"
+  },
+  {
+    "question": "Which design pattern is used to restrict the instantiation of a class to one object?",
+    "options": ["Singleton", "Factory", "Observer", "Decorator"],
+    "correct": "Singleton"
+  },
+  {
+    "question": "Which data structure is used for implementing LRU cache?",
+    "options": ["HashMap + Doubly Linked List", "Stack", "Queue", "Binary Tree"],
+    "correct": "HashMap + Doubly Linked List"
+  },
+  {
+    "question": "Which of the following is a backend framework?",
+    "options": ["Django", "React", "Vue.js", "Bootstrap"],
+    "correct": "Django"
+  },
+  {
+    "question": "Which of the following is a markup language?",
+    "options": ["HTML", "Python", "Java", "C#"],
+    "correct": "HTML"
+  },
+  {
+    "question": "Which method is used to parse JSON in JavaScript?",
+    "options": ["JSON.parse()", "JSON.stringify()", "JSON.load()", "JSON.read()"],
+    "correct": "JSON.parse()"
+  },
+  {
+    "question": "Which one is a relational database management system?",
+    "options": ["PostgreSQL", "MongoDB", "Redis", "Cassandra"],
+    "correct": "PostgreSQL"
+  },
+  {
+    "question": "Which sorting algorithm is the most efficient for nearly sorted arrays?",
+    "options": ["Insertion Sort", "Quick Sort", "Merge Sort", "Bubble Sort"],
+    "correct": "Insertion Sort"
+  },
+  {
+    "question": "Which of the following is a statically typed language?",
+    "options": ["C++", "Python", "JavaScript", "Ruby"],
+    "correct": "C++"
+  },
+  {
+    "question": "Which operating system is open-source?",
+    "options": ["Linux", "Windows", "macOS", "iOS"],
+    "correct": "Linux"
+  },
+  {
+    "question": "Which data structure is used in Breadth-First Search?",
+    "options": ["Queue", "Stack", "Heap", "Tree"],
+    "correct": "Queue"
+  },
+  {
+    "question": "Which technology is used for virtualization?",
+    "options": ["Docker", "MySQL", "Angular", "Nginx"],
+    "correct": "Docker"
+  },
+  {
+    "question": "Which language is primarily used for iOS app development?",
+    "options": ["Swift", "Java", "Kotlin", "C#"],
+    "correct": "Swift"
+  },
+  {
+    "question": "Which HTTP status code indicates a successful request?",
+    "options": ["200", "404", "500", "403"],
+    "correct": "200"
+  },      
   {
     "question": "Who painted the Mona Lisa?",
     "options": ["Picasso", "Van Gogh", "Leonardo da Vinci", "Rembrandt"],
