@@ -9,7 +9,8 @@ const questions = JSON.parse(fs.readFileSync("questions.json", "utf8"));
 const PORT = process.env.PORT || 5000;
 
 // Create the HTTP server
-const server = new WebSocket.Server({ port: PORT });
+const server = require('http').createServer();
+const wss = new WebSocket.Server({ server });
 
 let players = {}; // Store connected players
 let waitingPlayers = []; // Queue for waiting players
