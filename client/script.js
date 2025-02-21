@@ -53,7 +53,7 @@ ws.onmessage = (event) => {
         updateBoard();
     } 
     else if (data.type === "winner") {
-        alert(`Player ${data.player} wins!`);
+        alert(`Player ${characterName} wins!`);
         bgMusic.pause(); 
         location.reload();
     }
