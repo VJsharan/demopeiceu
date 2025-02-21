@@ -137,3 +137,6 @@ function endGame(gameId) {
     delete games[gameId];
     delete positions[gameId];
 }
+server.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
