@@ -97,4 +97,6 @@ Open an issue to discuss bugs, features, or improvements.
 
 MIT License © 2025
 
---
+---
+
+> *Developed originally by our Lead Dev @scgssk*
