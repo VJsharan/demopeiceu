@@ -1,4 +1,4 @@
-# 🩸 BloodyQuiz – AI-Powered Quiz Platform
+# 🩸⁉️ BloodyQuiz – AI-Powered Quiz Platform
 
 BloodyQuiz is a smart quiz management platform that uses AI to help you create, organize, and analyze quizzes with ease. Designed to support educators, trainers, and teams, it streamlines everything from question generation to automated grading for an efficient, data-driven assessment experience.
 
