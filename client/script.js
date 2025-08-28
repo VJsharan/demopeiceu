@@ -1,4 +1,4 @@
-const ws = new WebSocket('wss://quizgame-production-fbc7.up.railway.app');
+const ws = new WebSocket('wss://https://quizapp-sl50.onrender.com');
 ws.onopen = function() {
     ws.send(JSON.stringify({ type: "request_positions" }));
 };
