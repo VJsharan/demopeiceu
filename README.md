@@ -28,11 +28,12 @@ BloodyQuiz is a smart quiz management platform that uses AI to help you create, 
 
 ## 🛠️ Tech Stack
 
-- ⚛️ **React**
-- 🌐 **Express + Node.js**
-- 🤖 **AI via Google Gemini API & OpenRouter**
-- 📊 **Integrated analytics dashboard**
-- 🔒 **Secure API key management**
+- ⚛️ **React** (Frontend UI Framework)
+- 🌐 **Express + Node.js** (Backend API and WebSocket Server)
+- 🤖 **AI via Google Gemini API & OpenRouter** (AI-driven quiz features)
+- 📊 **Integrated analytics dashboard** (Performance and data monitoring)
+- 🔒 **Secure API key management** (Environment variable-based security)
+- 📦 **Node.js dependencies managed via npm** (See `package.json` for details)
 
 ---
 
